@@ -1,0 +1,52 @@
+public class MaiorMenorAltura {
+
+	public static void main(String[] args) {
+		
+		
+		int tamanho = 5;
+		
+		double[] altura = new double[tamanho];
+		char[] sexo = new char[tamanho];
+		
+		
+		altura[0] = 1.70;
+		altura[1] = 1.83;
+		altura[2] = 1.54;
+		altura[3] = 1.61;
+		altura[4] = 1.75;
+		
+		sexo[0] = 'F';
+		sexo[1] = 'M';
+		sexo[2] = 'M';
+		sexo[3] = 'F';
+		sexo[4] = 'F';
+		
+		
+		double menorAltura = alturas[0];
+		double maiorAltura = 0.0;
+		
+		double mediaAlturaMulheres = 0.0;
+		double numeroDeHomens = 0.0;
+		
+		for(int i = 0; i < tamanho; i++) {
+			
+			if(altura[i] < menorAltura) {
+				menorAltura = altura[i];
+			}
+		}
+		
+		System.out.println("Menor Altura: " + menorAltura);
+		
+		
+		for(int i = 0; i < tamanho; i++) {
+			
+			if(altura[i] > maiorAltura) {
+				maiorAltura = altura[i];
+			}
+		}
+		
+		System.out.println("Maior Altura: " + maiorAltura);
+
+	}
+
+}

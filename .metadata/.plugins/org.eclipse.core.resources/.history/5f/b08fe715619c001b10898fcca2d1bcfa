@@ -1,0 +1,24 @@
+
+public class VetorABC {
+
+	public static void main(String[] args) {
+		// Vetor c recebe vetor A e B
+		
+		int tamanho = 6;
+		
+		int[] vetorA = new int[tamanho];
+		int[] vetorB = new int[tamanho];
+		int[] vetorC = new int[tamanho];
+		
+		vetorA[0] = 8;
+		vetorA[1] = 2;
+		vetorA[2] = 11;
+		vetorA[3] = 14;
+		vetorA[4] = 13;
+		vetorA[5] = 20;
+		
+		
+
+	}
+
+}

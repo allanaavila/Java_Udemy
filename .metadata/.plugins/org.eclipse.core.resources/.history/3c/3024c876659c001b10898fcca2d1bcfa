@@ -1,0 +1,30 @@
+public class MaiorMenorAltura {
+
+	public static void main(String[] args) {
+		
+		
+		int tamanho = 5;
+		
+		double[] altura = new double[tamanho];
+		char[] sexo = new char[tamanho];
+		
+		
+		altura[0] = 1.70;
+		altura[1] = 1.83;
+		altura[2] = 1.54;
+		altura[3] = 1.61;
+		altura[4] = 1.75;
+		
+		sexo[0] = 'F';
+		sexo[1] = 'M';
+		sexo[2] = 'M';
+		sexo[3] = 'F';
+		sexo[4] = 'F';
+		
+		
+		
+		
+
+	}
+
+}

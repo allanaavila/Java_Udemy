@@ -1,0 +1,17 @@
+
+public class Media {
+
+	public static void main(String[] args) {
+		// media e nota a baixo da media
+		
+		
+		int tamanho = 4;
+		
+		double[] numero = new double[tamanho];
+		
+		
+		
+
+	}
+
+}

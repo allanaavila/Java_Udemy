@@ -1,0 +1,34 @@
+
+public class Juros {
+
+	public static void main(String[] args) {
+		
+
+		int tamanho = 4;
+		
+		String[] produto = new String[tamanho];
+		double[] compra = new double[tamanho];
+		double[] venda = new double[tamanho];
+		
+		
+		produto[0] = "Feijao";
+		produto[1] = "Arroz";
+		produto[2] = "Oleo";
+		produto[3] = "Sal";
+		
+		
+		compra[0] = 10.0;
+		compra[1] = 12.0;
+		compra[2] = 5.0;
+		compra[3] = 3.0;
+		
+		venda[0] = 11.0;
+		venda[1] = 12.80;
+		venda[2] = 5.70;
+		venda[3] = 4.0;
+		
+		
+
+	}
+
+}

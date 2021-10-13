@@ -1,0 +1,16 @@
+
+public class MaiorNumeroePosicao {
+
+	public static void main(String[] args) {
+		
+		
+		int tamanho = 6;
+		
+		int[] numero = new int[tamanho];
+		
+		
+		
+
+	}
+
+}

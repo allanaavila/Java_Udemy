@@ -1,0 +1,17 @@
+
+public class MaisVelho {
+
+	public static void main(String[] args) {
+		
+		int tamanho = 5;
+		
+		String[] nome = new String[tamanho];
+		int[] idade = new int[tamanho];
+		
+		
+		
+	
+	
+	}
+
+}
